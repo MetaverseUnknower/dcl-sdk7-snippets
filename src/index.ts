@@ -1,8 +1,8 @@
-import { createClickableImage } from './clickableImage'
+import { createImage } from './imageSnippets'
 
 export function main() {
   // Clickable Image Using All Options
-  createClickableImage({
+  createImage({
     position: { x: 4, y: 2, z: 8 }, // The position of the image
     scale: { x: 1.08, y: 1.92 }, // The size of the image
     rotation: { x: 0, y: 0, z: 0 }, // The rotation of the image
@@ -14,7 +14,7 @@ export function main() {
   })
 
   // Clickable Image Without Collider
-  createClickableImage({
+  createImage({
     position: { x: 8, y: 2, z: 8 },
     scale: { x: 1.6, y: 0.9, z: 0 },
     rotation: { x: 0, y: 0, z: 0 },
@@ -24,7 +24,7 @@ export function main() {
   })
 
   // Image Without Clickable Link
-  createClickableImage({
+  createImage({
     position: { x: 12, y: 2, z: 8 },
     scale: { x: 1.92, y: 1.08 },
     rotation: { x: 0, y: 0, z: 0 },
@@ -32,7 +32,7 @@ export function main() {
   })
 
   // Super Simple 1x1 Square
-  createClickableImage({
+  createImage({
     position: { x: 8, y: 4, z: 8 },
     imageSrc: 'https://picsum.photos/1000'
   })

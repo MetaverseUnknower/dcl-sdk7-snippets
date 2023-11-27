@@ -11,7 +11,7 @@ import {
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { openExternalUrl } from '~system/RestrictedActions'
 
-export const createClickableImage: CallableFunction = (options: {
+export const createImage: CallableFunction = (options: {
   position: { x: number; y: number; z: number }
   scale?: { x: number; y: number }
   rotation?: { x: number; y: number; z: number }
